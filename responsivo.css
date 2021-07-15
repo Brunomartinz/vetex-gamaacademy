@@ -1,0 +1,24 @@
+@media only screen and (max-width: 787px) {
+  .container {
+    width: 100%;
+    display: flex;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container img{
+    position: relative;
+    top:-20rem;
+    z-index: -1;
+  }
+  .forms {
+    position: relative;
+    top:-30rem;
+
+  }
+}
